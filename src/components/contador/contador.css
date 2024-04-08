@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(73, 92, 104);
+}
+.contador {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .contador__titulo {
+    font-size: 4em;
+    color: white;
+    margin-bottom: 1em;
+    transition: all 0.5s ease-in-out ;
+  }
+  .contador__titulo:hover{
+    color: brown;
+    cursor: pointer;
+  }
+  
+  .contador__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    font-size: 3em;
+  }
+  @media screen and (max-width:768px) {
+    .contador__container{
+        flex-direction: column;
+    }
+  }
+  .contador__unidad {
+    width: 5em;
+    height: 3em;
+    padding: 1em;
+    margin: 0.5em;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .contador__unidad--dias {
+    background-color: #f0f0f0;
+    transition: all 0.3s ease-in-out;
+
+  }
+  .contador__unidad--dias:hover{
+    background-color: #000000;
+    color: white;
+  }
+  
+  .contador__unidad--horas {
+    background-color: #fafafa;
+    transition: all 0.3s ease-in-out;
+
+  }
+  .contador__unidad--horas:hover{
+    background-color: #000000;
+    color: white;
+  }
+  
+  
+  .contador__unidad--minutos {
+    background-color: #f5f5f5;
+    transition: all 0.3s ease-in-out;
+
+  }
+  .contador__unidad--minutos:hover{
+    background-color: #000000;
+    color: white;
+  }
+  
+  
+  .contador__unidad--segundos {
+    background-color: #fafafa;
+    transition: all 0.3s ease-in-out;
+
+  }
+  .contador__unidad--segundos:hover{
+    background-color: #000000;
+    color: white;
+  }
+  
+  
